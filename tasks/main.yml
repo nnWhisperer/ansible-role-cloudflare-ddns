@@ -16,7 +16,7 @@
     name: "{{ dns_container_name }}"
     image: "joshava/cloudflare-ddns:{{ dns_image_version }}"
     recreate: yes
-    privileged: yes
+    privileged: no
     volumes:
       - "{{ dns_volume_config }}/config.yaml:/app/config.yaml:ro"
     restart: yes
