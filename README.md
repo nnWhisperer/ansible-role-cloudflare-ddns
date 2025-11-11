@@ -1,3 +1,6 @@
+This is archived. Instead use https://github.com/favonia/cloudflare-ddns image inside a docker compose, more practical. The problem with current repo is it uses unmaintained dockerhub image.
+
+
 Role Name
 =========
 
